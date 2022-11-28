@@ -9,14 +9,13 @@ const Logo = styled.h1`
   position: relative;
   z-index: 2;
   transform: skew(-7deg);
-  a {
-    padding: 0.5rem 1rem;
-    background: ${(props) => props.theme.red};
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-  }
+
+  padding: 0.5rem 1rem;
+  background: ${(props) => props.theme.red};
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 `;
 
 const HeaderStyles = styled.header`
